@@ -11,7 +11,7 @@ const loadPage = async () => {
 
 const Home = async () => {
   const data = await loadPage();
-  console.log(data);
+  // console.log(data);
 
   return (
     <div className="grid grid-cols-3 gap-10 mx-10 font-light">
