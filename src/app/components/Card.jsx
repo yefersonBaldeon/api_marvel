@@ -4,7 +4,7 @@ import Image from "next/image";
 const Card = ({ item }) => {
   return (
     <div className="h-96 bg-yellow-400 rounded-xl">
-      <div className="fles justify-center">
+      <div className="flex justify-center">
         <Image
           className="h-52 object-cover rounded-xl"
           src={item.thumbnail.path + "." + item.thumbnail.extension}
